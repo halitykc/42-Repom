@@ -9,7 +9,7 @@ int main() {
     i--;
     while ( i>= 0 && (s1[i] == ' ' || s1[i] == '\t'))
         i--;
-    while (s1[i] != ' ' && s1[i] != '\t')
+    while (i >= 0 && s1[i] != ' ' && s1[i] != '\t')
         i--;
     i++;
     while(s1[i] && s1[i] != ' ' && s1[i] !='\t')
