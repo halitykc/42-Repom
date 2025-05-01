@@ -7,7 +7,7 @@ int main() {
     while (s1[i])
         i++;
     i--;
-    while (s1[i] == ' ' || s1[i] == '\t')
+    while ( i>= 0 && (s1[i] == ' ' || s1[i] == '\t'))
         i--;
     while (s1[i] != ' ' && s1[i] != '\t')
         i--;
